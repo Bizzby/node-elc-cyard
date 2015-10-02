@@ -1,0 +1,25 @@
+{
+  "name": "elc-cyard",
+  "version": "0.0.1",
+  "description": "for building things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bizzby/node-elc-cyard.git"
+  },
+  "author": "sandfox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bizzby/node-elc-cyard/issues"
+  },
+  "homepage": "https://github.com/Bizzby/node-elc-cyard",
+  "dependencies": {
+    "async": "^1.4.2",
+    "es6-map": "^0.1.1",
+    "graphlib": "^1.0.7",
+    "yapec": "^1.0.0"
+  }
+}
