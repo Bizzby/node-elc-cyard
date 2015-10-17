@@ -1,6 +1,6 @@
 {
   "name": "elc-cyard",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "for building things",
   "main": "lib/index.js",
   "scripts": {

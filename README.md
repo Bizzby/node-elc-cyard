@@ -3,7 +3,7 @@
 _short for construction yard_
 
 Something or other for auto wiring up "factories" with configuration and dependencies
-and building a dependency graph, and running those factories.
+and building a dependency graph, and running those factories at runtime.
 
 This is probaly not the dependency injection framework you are looking for... (no really, it isn't)
 
@@ -11,6 +11,11 @@ This is probaly not the dependency injection framework you are looking for... (n
 
 - a "plugin" is just NPM module or a folder that could pass off as one.
 - a plugin's name is taken from the package.json
+- see './example' for how this works
+
+There is also a `pluginBuilder` to remove the boiler plater from simple factories/plugins.
+See comments in './utils/index.js' for more info
+
 
 
 
