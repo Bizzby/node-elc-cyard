@@ -104,11 +104,11 @@ exports.factoryBuilder = factoryBuilder;
 
 //some magic to allow calling apply with new
 function construct(constructor, args) {
-    function F() {
-        return constructor.apply(this, args);
-    }
-    F.prototype = constructor.prototype;
-    return new F();
+  try {
+    return new constructor(...args);
+  } catch (err) {
+    return constructor;
+  }
 }
 
 
